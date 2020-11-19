@@ -22,9 +22,9 @@ Sculptor::Sculptor(int _nx, int _ny, int _nz){
 }
 
 Sculptor::~Sculptor(){
-    delete [] v;
-    delete [] *v;
     delete [] **v;
+    delete [] *v;
+    delete [] v;
 }
 
 void Sculptor::setColor(float _r, float _g, float _b, float alpha){
