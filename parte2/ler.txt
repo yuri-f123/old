@@ -1,0 +1,17 @@
+dim 31 31 31
+putbox 10 30 10 30 5 5 0 1 0 1
+putsphere 15 15 21 5 0 1 0 1
+putbox 20 30 20 30 5 16 1 0 0 1
+cutbox 21 29 21 29 6 15
+cutsphere 25 25 16 3
+cutsphere 20 25 10 3
+cutsphere 30 25 10 3
+putellipsoid 25 15 5 3 4 1 1 0 1
+cutellipsoid 25 15 10 6 3 4
+putbox 10 30 10 30 0 4 0.6 0.3 0 1
+putbox 15 16 15 16 5 20 0.6 0.3 0 1
+putbox 25 26 20 20 6 10 0.6 0.3 0 1
+putellipsoid 10 5 4 10 4 4 0 0.4 0.7 1
+putvoxel 14 3 7
+putvoxel 14 7 7
+cutvoxel 11 5 7 
